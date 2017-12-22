@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+#main{
+	background:#fff;
+	width:1337px;
+}
+#header{width:1337px;
+  margin:0 auto;}
+#nav{
+	width:1337px;
+	margin:0 auto;
+}
+.nav_ul{
+	width:1337px;
+	height:55px;
+	background:#000;
+	line-height:55px;
+}
+#nav .nav_ul ul{width:900px; background:#000;height:40px;text-align:center; margin:0 auto;}
+#nav .nav_ul ul li{
+	float:left;
+	width:150px;
+} 
+#nav .nav_ul ul li a{
+	font-size:20px;
+	line-height:40px;
+	color:#fff;
+}
+#nav .nav_ul ul li:hover{
+	background:red;
+}
+#nav .banner{
+	width:1337px;
+	height:375px;
+	position:relative;
+
+}
+#nav .banner-img{
+	width:1337px;
+	position:relative;
+	height:380px;
+	overflow:hidden;
+}
+#nav .banner-img .box-banner{
+	width:6685px;
+	position:absolute;
+	left:0;
+}
+#nav .banner .banner-img>ul>li img{
+	 width:1337px;
+ }
+#nav .banner .banner-img>ul>li{
+	width:1337px;
+	float:left;
+}
+
+#nav .banner>.left,.right{
+	width:50px;
+	height:100px;
+	background:rgba(0,0,0,.3);
+	font-size:32px;
+	color:#fff;
+	position:absolute;
+	top:40%;
+	line-height:100px;
+	text-align:center;
+}
+#nav .banner>.left{
+	left:20px;
+}
+#nav .banner>.right{
+	right:15px;
+}
+#nav .banner .round{
+	position:absolute;
+	bottom:20px;
+	left:47%;
+}
+#nav .banner .round>li{
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	margin-left:10px;
+	border:1px solid #000000;
+	float:left;
+}
+#nav .banner .round>li.on{
+	background:red;
+}
+#floorName{
+	margin-left:-80px;
+	z-index:200;
+	position:fixed;
+	top:200px;
+	transition:all .1s;
+	display:none;
+}
+.item{
+	width:45px;
+	height:50px;
+	padding:5px;
+	border:1px solid red;
+	text-align:center;
+	background:#f2f2f2;
+}
+.item:hover{
+	cursor: pointer;
+}
+.item_on{
+	background:red;
+}
+li.floor:hover,.item_on{
+	background:red;
+	cursor:pointer;
+}
+#qiang{
+	width:1130px;
+	/*width:926px;*/
+	margin:0 auto;
+}
+#qiang .jin-ming{
+	width:400px;
+	height:40px;
+	border:1px solid #000;
+	margin:20px auto;
+}
+#qiang .jin-ming span{
+	display:inline-block;
+	font-size:20px;
+	width:195px;
+	line-height:40px;
+	padding-left:50px;
+	box-sizing:border-box;
+}
+#qiang .jin-ming .jin{
+	background:#000;
+	color:#fff;
+}
+#qiang .zhe-kou img{
+	margin-left:15px;
+}
+#qiang .zhe-kou{
+	width:1130px;
+	margin:0 auto;
+	background:#fff;
+} 
+section.wen>p span{
+	color:#fff;
+	background:#000;
+	display:inline-block;
+	padding:5px 30px;
+	height:35px;
+}
+section.wen>p{
+	height:45px;
+	font-size:20px;
+	font-family:"微软雅黑";
+	border-bottom:2px solid #000;
+}
+section.wen{
+	background:#e8e8e8;
+	width:1130px;
+	margin:0 auto;
+	
+}
+#each .product-intro{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+#each .product{
+	width:276px;
+	height:300px;
+   position:relative;
+	background:#fff;
+	margin-bottom:10px;
+	border:1px solid #e8e8e8;
+
+	
+}
+#each .product img{
+	width:197px;
+	height:197px;
+	margin-left:30px;
+}
+#each .product p{
+	font-size:14px;
+	padding-left:10px;
+}
+#each .product p.title span{
+	color:red;
+}
+#each .product p.price{
+	color:red;
+	display:inline-block;
+}
+#each .product p.price span{
+	text-decoration:line-through;
+	color:#000;
+	margin-left:10px;
+}
+#each .product>a{
+	display:inline-block;
+	width:105px;
+	height:40px;
+	background:red;
+	line-height:40px;
+	font-size:16px;
+	text-align:center;
+	position:absolute;
+	bottom:10px;
+	left:155px;
+	color:#fff;
+}
+#each .product>a:hover{
+	color:#fff;
+}
+#new{
+	background:#fff;
+}
+#new .title{
+	width:565px;
+	padding:5px 10px;
+	font-size:26px;
+	float:right;
+	position:relative;
+	left:-183px;
+
+
+}
+#new .title .price{
+	font-weight:bold;
+	font-size:30px;
+	color:#EE6EB8;
+	margin-top:20px;
+
+}
+#new .title .buy{
+	display:inline-block;
+	width:145px;
+	height:50px;
+	background:red;
+	text-align:center;
+	line-height:50px;
+	font-size:20px;
+	margin-top:20px;
+	color:#fff; 
+}
+#new>.product-list>.pic{
+	width:1337px;
+	height:360px;
+	background:url("../img/index/new1.jpg") no-repeat;
+	background-position:-365px;
+	border-bottom:1px solid #fff;
+}
+#name{
+	background:#fff;
+}
+#name .name-top{
+/*	height:425px;*/
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+
+}
+#name .name-top img:first-child{
+	float:left;
+	margin-top:10px;
+	margin-right:10px;
+}
+#name .name-top img:not(:first-child){
+	width:415px;
+	height:213px;
+	margin-right:10px;
+	float:left;
+	margin-top:10px;
+}
+#name .group{
+	padding-left:20px;
+}
+#footer{width:100%;}
+.chengnuo,.more,.bottom{
+	width:1130px;
+	margin:0 auto;
+}

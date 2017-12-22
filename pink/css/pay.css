@@ -1,0 +1,125 @@
+#main{
+		width:1337px;
+		margin:0 auto;
+	}
+div.contain-top{
+	height:42px;
+	background:-webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+	line-height:50px;
+	margin-bottom:10px;
+	box-shadow:3px 3px 6px #ccc;
+}
+.contain-top .top-count,.contain-top .top-Tprice{
+	color:red;
+	font-weight:bold;
+	padding:0 5px;
+}
+.contain-top>h3{
+	margin-left:30px;
+	display:inline-block;
+}
+.contain-top>p{
+	float:right;
+	margin-right:30px;
+}
+.title .left{
+	margin-left:12px;
+}
+.title .left>span{
+	padding-left:77px;
+}
+.title .left .one{
+	margin-left:516px;
+}
+.title .left .total{
+	margin-left:60px;
+}
+.title .left .do{
+	margin-left:110px;
+}
+.contain-center{
+	margin-top:20px;
+	margin-left:10px;
+	font-size:12px;
+}
+.contain-center ul li{
+	border-top:1px solid #977;
+	padding:10px 0;
+}
+.contain-center ul li>.price{
+	color:red;
+	margin-right:-10px;
+	display:inline-block;
+	width:110px;
+
+}
+.contain-center ul li>.title{
+	display:inline-block;
+	width:680px;
+	line-height:20px;
+	position:relative;
+	top:-12px;
+	text-align:left;
+
+}
+.contain-center ul li>.buyCount{
+	width:50px;
+	height:23px;
+	text-align:center;
+	line-height:20px;
+	border:none;
+}
+#reduce,#add{
+	padding:4px 9px ;
+	border:1px solid #6CD6FC;
+	font-size:8px;
+	background:#fff;
+	outline:none;
+}
+.contain-center ul li>.total{
+	margin-left:70px;
+	color:red;
+	display:inline-block;
+	width:110px;
+}
+.contain-center ul li>.del{
+	margin-left:130px;
+}
+div.bottom-title{
+	height:42px;
+	background:-webkit-linear-gradient(top, #f5f4f5 0%,#e6e6e5 100%);
+	line-height:50px;
+	margin-bottom:10px;
+	box-shadow:3px 3px 6px #ccc;
+}
+.bottom-title p{
+	display:inline-block;
+}
+.bottom-title .del-chose{
+	padding-right:635px;
+	padding-left:11px;
+}
+.top-count{
+	display:inline-block;
+	width:100px;
+	text-align:center;
+	font-size:20px;
+	color:red;
+}
+.bottom-title .pay{
+	width:202px;
+	height:42px;
+	background:red;
+	border:none;
+	border-left:1px solid red;
+	font-size:22px;
+	border-radius:2px;
+	outline:none;
+}
+.bottom-title .top-Tprice{
+	display:inline-block;
+	width:100px;
+	text-align:left;
+	color:red;
+	font-size:20px;
+}

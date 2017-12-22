@@ -1,0 +1,248 @@
+#main{
+    width:1337px;
+    margin:0 auto;
+	
+
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+#title{
+    padding-left:50px;
+}
+#title p span{
+    font-size:12px;
+    font-weight: 600;
+}
+#glass{
+    width: 1337px;
+	  display:flex;
+	 flex-wrap:wrap;
+	 justify-content: flex-start;
+	 position:relative;
+}
+#glass .left{
+	width:350px;
+	position:relative;
+}
+#glass .left .mark{
+	position:absolute;
+	top:0;
+	left:0px;
+	background:rgba(255,255,0,.4);
+	width:150px;
+	height:150px;
+	display:none;
+}
+#glass .left .left-up{
+	position:absolute;
+	width:350px;
+	height:350px;
+	top:0px;
+	left:0px;
+}
+#glass .small{
+	margin-top:5px;
+	width:350px;
+	height:60px;
+	position:relative;
+	overflow: hidden;
+}
+#glass .small ul{
+	padding:0 24px;
+	position:absolute;
+	width:480px;
+	top:0px;
+	left:0px;
+	transition:all 0.5s linear
+
+
+
+}
+#glass .small .left,#glass .small .right{
+	width:19px;
+	height:55px;
+	background:#F1F1F1;
+	position:absolute;
+	top:5px;
+	left:0px;
+	border:1px solid #DDDDDD;
+	border-radius: 2px;
+	text-align:center;
+	line-height:55px;
+	font-size:20px;
+	border-shadow:none ;
+}
+
+#glass .small .right{
+	left:328px;
+}
+#glass .small>ul li{
+	float:left;
+	border:1px solid #CECFCE;
+	margin:5px 3px;
+}
+#glass .small>ul li:hover{
+	border:2px solid red;
+}
+#glass .small>ul>li.current{
+	border:2px solid red;
+}
+#glass .great{
+	width:345px;
+	height:350px;
+	position:absolute;
+	top:0px;
+	left:352px;
+	/*background:url(../img/product/dior_lg1.jpg) no-repeat;*/
+	display:none;
+
+}
+#glass #right{
+   color:#666666;
+	width:800px;
+	min-height:300px;
+	margin-left:95px;
+	color:#000;
+}
+#glass #right p{
+	font-size:12px;
+	color:#000;
+
+}
+#glass #right b{
+	font-weight:normal;
+	font-size:13px;
+	margin-right:10px;
+	margin-left:10px;
+
+}
+#glass #right .sale-price{
+	height:150px;
+}
+#glass #right .sale-price>p{
+	margin-bottom:20px;
+	margin-top:10px;
+}
+#glass #right .price{
+	color:red;
+	font-size:30px;
+	font-weight:500;
+}
+#glass #right .weight{
+	color:red;
+	margin-bottom:5px;
+}
+#glass #right .spec>ul{
+	width:800px;
+	height:190px;
+	 margin-left:60px;		
+}
+#glass #right .spec>ul li{
+	 float:left;
+	 width:200px;
+	 height:30px;
+	 border:1px solid #666;
+	font-size:14px;
+	 text-align:center;
+	 line-height:30px;
+	 margin:0 0 10px 30px;
+	border-radius:2px;
+}
+#glass #right .spec>ul li.hover{
+	border:1px solid #00A1ED;
+}
+#glass #right .count input{
+	width:40px;
+	height:25px;
+	text-align:center;
+	line-height:25px;
+}
+#glass #right #add,#reduce{
+	width:30px;
+	height:30px;
+	font-size:20px;
+}
+#glass #right .btn-cart>button{
+	padding:13px;
+	background:#EDEDED;
+	border:none;
+	font-size:18px;
+	color:#000;
+	border-radius:3px;
+	margin-left:30px;
+	margin-top:23px;
+}
+#glass #right .btn-cart .cart, #glass #right .btn-cart .shou{
+	background:red;
+	color:#fff;
+	margin-left:10px;
+}
+#forYou{
+	margin:30px 0;
+}
+#forYou .recom{
+	height:43px;
+	background:#ededed;
+	font-size:20px;
+	font-weight:bold;
+	color:red;
+	line-height:43px;
+	padding-left:30px;
+}
+#forYou .detail{
+	width:1015px;
+	text-align:center;
+}
+#forYou .recom-pic{
+	width:1305px;
+	overflow:hidden;
+	height:230px;
+
+}
+#forYou .pro-title{
+	width:2400px;
+}
+#forYou .pro-title>li{
+	float:left;
+	width:150px;
+	margin:10px 0 0 13px;
+	height:210px;
+}
+#forYou .pro-title>li img{
+	width:150px;
+}
+
+#backIndex{
+		position:fixed;
+		right:250px;
+		top:630px;
+		width:100px;
+		height:34px;
+		line-height:34px;
+		text-align:center;
+		background:red;
+		font-size:16px;
+		font-family:"微软雅黑";
+		display:none;
+		border-radius:5px;
+		color:#fff;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

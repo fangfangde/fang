@@ -1,0 +1,109 @@
+#main{
+/*	width:1337px;*/
+	margin:0 auto;
+}
+#header{
+	margin-top:30px;
+	background:#fff;
+	vertical-align:middle;
+	display:flex;
+	justify-content:space-between;
+}
+#header .top-logo{
+	margin-left:60px;
+}
+#header .top-logo span{
+	font:32px "隶书";
+	font-weight:bold;
+	color:red;
+	position:relative;
+	top:-15px;
+	left:10px;
+}
+#header p.title{
+	font:14px "隶书";
+	color:#e3e3e3;
+	position:relative;
+	top:-10px;
+	left:10px;
+}
+.back a {
+	font-size:30px;
+	color:#EA5B9B;
+	font-weight:700;
+
+}
+#header a.phone{
+	color:#000;
+	margin-right:20px;
+}
+#container {
+	width:100%;
+	background:url(../img/login/login.jpg) no-repeat;
+	background-size:100%;
+
+}
+#container .table{
+	width:460px;
+	height:550px;
+	margin:0 465px;
+
+
+}
+#container .table h1{
+	font-weight:400;
+	position:relative;
+	left:-80px;
+	color:#F58CB7;
+
+}
+#container p>input{
+	width:230pX;
+	height:25px;
+	padding-left:5px;
+	margin-left:10px;
+	margin-top:30px;
+}
+#container p>i{
+	font-style:normal;
+	display:inline-block;
+	width:65px;
+	text-align:right;
+}
+#container form p span{
+	width:100px;
+	color:#e0e0e0;
+	padding-left:10px;
+}
+#container form p span.error{
+	color:red;
+}
+#container form p span.right{
+	color:green;
+}
+#container #check {
+	margin-top:30px; 
+	font-size:12px;
+	margin-left:32px;
+}
+#container .table label{
+	color:#000;
+}
+#container .table a label>i{
+	color:#45a9e4;
+	font-style:normal;
+}
+#container #reg{
+	margin-left:80px;
+	height:48px;
+	font-size:20px;
+   border-radius:5px; 
+   border:1px solid #F58CB7;
+	cursor: pointer;
+	background:#FFEBF4;
+}
+#footer{
+	background:#fff;
+	width:1337px;
+	margin:0 auto;
+}

@@ -1,0 +1,94 @@
+
+#header{
+    padding-top:30px;
+    vertical-align:middle;
+    display:flex;
+    justify-content:space-between;
+	background:#eee;
+}
+#header .top-logo{
+    margin-left:60px;
+}
+#header p.title{
+    font:14px "Á¥Êé";
+    color:red;
+    position:relative;
+    top:-17px;
+    left:10px;
+}
+#header .top-phone{
+    margin-top:-17px;
+}
+#header .back  a{
+	display:inline-block;
+	font-size:30px;
+	color:#EA5B9B;
+	font-weight:700;
+}
+#header a.phone{
+    color:#000;
+    margin-right:20px;
+}
+#container {
+    background:#FBE1D4;
+
+}
+#container .table{
+    text-align:center;
+    width:1200px;
+    height:625px;
+	position:relative;
+	left:670px;
+	top:0px;
+    background:url(../img/login/login-bk.jpg) no-repeat;
+}
+#container .table form p:first-child{
+    padding-top: 125px;
+}
+#container .table form .top{
+	font-weight:500;
+	font-size:32px;
+	color:red;
+	margin-left:40px;
+	margin-right:150px;
+	padding-top:30px;
+	}
+#container p:not(.select)>input{
+    width:230pX;
+    height:25px;
+    padding-left:5px;
+    margin-left:10px;
+    margin-top:40px;
+}
+#container p>i{
+    font-style:normal;
+    display:inline-block;
+    width:65px;
+    text-align:right;
+}
+#container #check {
+    margin-top:30px;
+    font-size:12px;
+    margin-left:40px;
+}
+#container .table label{
+    color:#000;
+}
+#container .table .vailLogin{
+    color:red;
+    margin-left:55px;
+    margin-top:25px;
+
+}
+#container #Login{
+    margin:30px 0 0 80px;
+    height:48px;
+    font-size:20px;
+    border-radius:5px;
+    border:1px solid #FF837B;
+    cursor: pointer;
+    background:#F6B0BA;
+}
+#footer{
+    background:#fff;
+}

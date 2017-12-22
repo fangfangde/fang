@@ -1,0 +1,43 @@
+<!doctype html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+  <style></style>
+ </head>
+ <body>
+ <header id="header"></header>
+		<div style="width:400px ;text-align:center;height:300px;margin:0 auto;">
+			<h1>此页面不通</h1>
+				<p id="timer" style="font-size:30px"></p>
+		</div>
+	
+ <footer id="footer"></footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>	
+	<script>
+		var count=5;
+		var timer=setInterval(function(){
+			console.log(count);
+		var html="";
+				html=`
+					<span style="color:red;font-weight:700">${count}秒之后跳转回首页</span>
+				`;
+				count--;
+			$("#timer").html(html);	
+				if(count==0){
+					clearInterval(timer);
+					location.href="index.html";
+					timer=null;
+				}
+			},1000)
+			if(!timer){
+				clearInterval(timer);
+			}
+	</script>
+ </body>
+</html>

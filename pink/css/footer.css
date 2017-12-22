@@ -1,0 +1,98 @@
+#footer{
+	width:1337px;
+	margin:0 auto;
+}
+#footer .chengnuo{
+			width:1260px;
+			height:150px;
+			border-bottom:1px solid #d1d1d1;
+			border-top:1px solid #d1d1d1;
+		}
+		#footer .chengnuo p{
+			width:250px;
+			height:100px;
+			float:left;
+			position:relative;
+			border-right:1px solid #d1d1d1;
+			margin-right:50	px;
+			margin-top:30px;
+		}
+		#footer .chengnuo p:last-child{
+			border:none;
+		}
+		#footer .chengnuo p span{
+			width:95px;
+		}
+		#footer .chengnuo p span:first-child{
+			position:absolute;
+			left:50px;
+			display:block;
+			color:#909090;
+		}
+		#footer .chengnuo p span:last-child{
+			position:absolute;
+			left:45px;
+			top:30px;
+			display:block;
+			font-size:12px;
+		}
+		/*#footer .chengnuo p:first-child{
+			background:url(../img/footer/pic_1.jpg) no-repeat;
+		}
+		#footer .chengnuo p:nth-child(2){
+			background:url(../img/footer/pic_2.jpg) no-repeat;
+
+		}
+		#footer .chengnuo p:nth-child(3){
+			background:url(../img/footer/pic_3.jpg) no-repeat;
+		}
+		#footer .chengnuo p:nth-child(4){
+			background:url(../img/footer/pic_4.jpg) no-repeat;
+		}
+		#footer .chengnuo p:nth-child(5){
+			background:url(../img/footer/pic_5.jpg) no-repeat;
+		}*/
+		#footer .more{
+			padding-top:40px;
+			width:1260px;
+			height:180px;
+			display:flex;
+			justify-content:space-between;
+			border-bottom:1px solid #d1d1d1;
+			background:#fff;
+
+		}
+		#footer .more ul{
+			margin:0 50px;
+			font-size:12px;
+		}
+		#footer .more ul:last-child>li:nth-child(2){
+			font-size:24px;
+		}
+		#footer .more ul>li{
+			margin-bottom:10px;
+		}
+		#footer .more ul>li:first-child{
+			font-size:14px;
+			font-weight:bold;
+		}
+		#footer .more ul>li:not(:first-child){
+			color:#909090;
+		}
+		#footer .bottom{
+			width:1260px;
+			background:#fff;
+		}
+		#footer .bottom p{
+			text-align:center;
+			color:#909090;
+			font-size:12px;
+			padding-top:20px;
+		}
+		#footer .bottom p>a{
+			font-size:12px;
+		}
+		#footer .bottom p>a>b{
+			padding:0 10px;
+			font-weight:normal;
+		}

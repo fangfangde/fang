@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+#header{width:100%;}
+#header iframe{width:100%;margin:0}
+#nav>ul{width:100%; background:#000;height:40px;text-align:center;}
+#nav li{
+	float:left;
+	width:16%;
+}
+#nav ul li a{
+	font-size:20px;
+	line-height:40px;
+	color:#fff;
+}
+#nav ul li:hover{
+	background:red;
+}
+#nav .banner{
+	width:6415px;
+	height:450px;
+	position:relative;
+	overflow:hidden;
+}
+#nav .banner>.left,.right{
+	width:50px;
+	height:100px;
+	background:rgba(0,0,0,.3);
+	font-size:32px;
+	color:#fff;
+	position:absolute;
+	top:50%;
+	line-height:100px;
+	text-align:center;
+}
+#nav .banner>.left{
+	left:10px;
+}
+#nav .banner>.right{
+	left:1255px;
+}
+#nav .banner>ul{
+	position:absolute;
+	bottom:20px;
+	left:11%;
+}
+#nav .banner ul li{
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	margin-left:10px;
+	background:red;
+}
+
